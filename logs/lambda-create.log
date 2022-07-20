@@ -1,0 +1,28 @@
+{
+    "FunctionName": "api-producer",
+    "FunctionArn": "arn:aws:lambda:us-east-2:083537024163:function:api-producer",
+    "Runtime": "nodejs16.x",
+    "Role": "arn:aws:iam::083537024163:role/api-producer",
+    "Handler": "dist/main/routes/aws/produce-event.handler",
+    "CodeSize": 10290903,
+    "Description": "",
+    "Timeout": 3,
+    "MemorySize": 128,
+    "LastModified": "2022-07-13T17:34:55.134+0000",
+    "CodeSha256": "fqdSjSlKFkT2E7zZ5AIRdfd49CLOTI0VGGAzIaKYHwM=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "706cc210-69a1-44bc-8684-49ce659fa784",
+    "State": "Pending",
+    "StateReason": "The function is being created.",
+    "StateReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    }
+}
